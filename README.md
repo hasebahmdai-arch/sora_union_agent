@@ -162,7 +162,7 @@ For example: "Can I get a refund on ORD-1002?" triggers `lookup_order`, which ch
 
 ## Next Improvements
 
-1. Add streaming responses (SSE) for better perceived latency.
+1. Add streaming responses or websockets for better perceived latency.
 2. Replace keyword FAQ lookup with embedding-based semantic search.
 3. Integrate real order and ticketing backends instead of mock datasets.
 4. Add production-grade monitoring/rate limiting and deployment hardening.
